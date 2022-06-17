@@ -29,6 +29,7 @@
             transition: 0.5s;
         }
         .over_lay{
+            transition: 0.1s;
             background-color: black;
             position: fixed;
             opacity: 0.5;
