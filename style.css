@@ -168,6 +168,9 @@ nav {
 .block_game:hover {
 
 }
+.over_lay{
+    display: none;
+}
 .block_game {
     background-image: url('./img/Rectangle\ 4778.png');
     background-size: cover;
