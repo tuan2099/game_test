@@ -1,0 +1,273 @@
+@media screen and (max-width: 1440px) {
+    .ngu {
+        width: 94%;
+    }
+    }
+
+    @media screen and (max-width: 1040px) {
+        .ngu {
+            width: 91.9%;
+        }
+        .nav_left li a div {
+            font-size: 11px;
+        }
+        .nav_left{
+            width: 65%;
+        }
+        }
+    
+
+    @media screen and (max-width: 769px) {
+        .responssive_nav{
+            display : block;
+            position: fixed;
+            top : 0 ;
+            left : -930px;
+            width: 80%;
+            z-index: 99999;
+            background-color: white;
+            transition: 0.5s;
+        }
+        .over_lay{
+            background-color: black;
+            position: fixed;
+            opacity: 0.5;
+            width: 100%;
+            top : 0 ;
+            left : -930px;
+            bottom : 0;
+            right : -100;
+            height : 100%;
+            z-index: -12;
+        }
+        .iconmenu{
+            display: block;
+        }
+        .backgroundImage2 {
+            background-image: url(./img/Rectangle\ 4762-1.png);
+            width: 230px;
+            height: 138px;
+            border-radius: 12px;
+        }
+        .backgroundImage3 {
+            background-image: url(./img/Rectangle\ 476122222.png);
+            width: 170px;
+            height: 171px;
+            border-radius: 12px;
+        }
+        .nav_left .block_1 {
+            display : none;
+        }
+        .nav_left{
+            width: 30%;
+        }
+        .ngu {
+            width: 89.1%;
+        }
+        .follow {
+            width: 95%;
+        }
+        .new_game {
+           
+            width: 95%;}
+        .infomation {
+            width: 95%
+        }
+        footer {
+            width: 95%
+
+        }
+        .block_1_footer {
+            width: 95%
+
+        }
+        .block_2_footer {
+            width: 95%
+            
+        }
+    }
+
+    @media screen and (max-width: 435px) {
+        .nav_right .search_input {
+            padding: 0;
+            margin: 0;
+            width: 0;
+            background : none;
+        }
+        .backgroundImage2 {
+            background-image: url(./img/Rectangle\ 4762-1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 170px;
+            height: 90px;
+            border-radius: 12px;
+        }
+        .dot_line_slice2{
+            margin: 10px 0;
+        }
+        .dot_line_slice{
+            display: none;
+        }
+        .title_hero_slice2{
+            line-height: 30px;
+            display:block;
+            left: 30px;
+            top: 181px;
+        }
+        .download_with {
+            max-width:180px;
+        }
+        .download_with div {
+            max-width: 86px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .download_with div img{
+            width: 100%;
+        }
+        .block_info_hero_slice{
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            max-width: 390px;
+        }
+        .title_hero_slice{
+            display:none;
+        }
+        .content_game{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 24px;
+        }
+
+        .arrow1 , .arrow2 {
+            top: 16%
+        }
+        .arrow1 {
+            left: 10px;
+        }
+        .arrow2 {
+            right: 10px;
+        }
+        .hero_slide {
+            background-image: url("./img/Rectangle\ 406\ \(12\).png");
+            background-size: contain;
+            background-position : top;
+        }
+        .overlay_hero_slide {
+            position: absolute;
+            max-width: 971px;
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+            background: linear-gradient(359deg, rgba(86, 13, 0, 0.9) 65.94%, rgba(24, 25, 31, 0) 100%, rgba(86, 13, 0, 0) 100%);
+        }
+        .nav_right{
+            width: 37%;
+        }
+        .nav_left{
+            width: 50%;
+        }
+        .iconmenu{
+            display: block;
+        }
+        .ngu {
+            width: 96%;
+            left: 16px;
+        }
+        .infomation .content_infomation {
+            width: 85% ;
+        }
+        .block_1_footer {
+            text-align: center;
+            flex-direction: column;
+        }
+        .block_1_footer .top_footer {
+            flex-direction: column;
+            padding: 10px 0px
+        }
+        .block_1_footer .top_footer p {
+            text-align : left;
+        }
+        .block_2_footer .info_subscribe {
+            flex-direction: column;
+        }
+        .block_2_footer .info_subscribe .info_content_footer {
+            flex-direction: column;
+        }
+        .new_game,
+        .new_game .content_new_game,
+        .infomation,
+        footer {
+            width: 100%;
+            border-radius: 0px;
+        }
+        .new_game .title_new_game {
+            width: 95%;
+            margin: auto;
+        }
+        .block_follow{
+            flex-direction: column;
+        }
+        .content_follow {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 364px;
+            width: 100%;
+        }
+        .follow {
+            width: 100%;
+            border-radius:  0px;
+
+        }
+        .circle_1 {
+            left: -45px;
+            top: -84px;
+        }
+        .circle_2 {
+            left: -73px;
+        top: -114px;
+        }
+         .circle_3 {
+            left: 300px;
+            top: -77px;
+        }
+        .circle_4 {
+            left: 261px;
+            top: -128px;
+        }
+        .nav_right li input {
+            display : none;
+        }
+        .nav_right li img {
+            display : block;
+            
+        }
+        }
+
+    @media screen and (max-width: 376px) {
+        .nav_right  {
+            width: 40%;
+        }
+        .infomation .content_infomation {
+            width: 88%;
+        }
+        .backgroundImage2 {
+            background-image: url(./img/Rectangle\ 4762-1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 170px;
+            height: 90px;
+            border-radius: 12px;
+        }
+        }
+        @media screen and (max-width: 321px) {
+            .nav_right  {
+                width: 46%;
+            }
+            .infomation .content_infomation {
+                width: 84%;
+            }
+            }
